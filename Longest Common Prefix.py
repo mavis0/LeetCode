@@ -36,5 +36,5 @@ class Solution(object):
 
 s = Solution()
 # print(s.CommonPre('ser', 'se'))
-print(s.longestCommonPrefix(['ser', 'set', 'seg', 'ssdfg', 'ssdgv', 'ssefr', 'sefg']))
+print(s.longestCommonPrefix(["ser", "set", "seg", "ssdfg", "ssdgv", "ssefr", "sefg"]))
 # print(s.longestCommonPrefix(['']))
