@@ -38,7 +38,8 @@ class Solution(object):
 
         # return l1 if l1.val < l2.val else l2
 
-        dummy,cur = ListNode(0)
+        dummy = ListNode(0)
+        cur = dummy
 
         while l1 or l2:
             if l1.val < l2.val:
