@@ -15,6 +15,7 @@ class Solution(object):
         #     i += 1
         # return i if flag else -i
         #
+        if divisor == 0: return -1
         flag = True if (divisor > 0 and dividend > 0) or (divisor < 0 and dividend < 0) else False
         dividend, divisor = abs(dividend), abs(divisor)
         ans = 0
@@ -24,8 +25,13 @@ class Solution(object):
                 d += 1
             ans += 1 << (d-1)
             dividend -= divisor << (d-1)
-
-        return ans
+    
+        if ans >= 2147483647:
+            if flag:
+                ans = 2147483647
+            else:
+                ans = 2147483647 if ans == 2147483647 else 2147483648
+        return ans if flag else -ans
 
 
 
