@@ -7,6 +7,9 @@ class TreeNode:
 
 class Tree:
     def __init__(self, l):
+        if l == []:
+            self.root = []
+            return 
         tmp = self.root = TreeNode(l.pop(0))
         floor = [tmp]
         while l:
