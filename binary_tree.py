@@ -17,12 +17,12 @@ class Tree:
                 if not l: break
                 tmp = TreeNode(l.pop(0))
                 floor_tmp = floor.pop(0)
-                if tmp != 'null':
+                if tmp.val != 'null':
                     floor_tmp.left = tmp
                     floor.append(tmp)
                 if not l: break
                 tmp = TreeNode(l.pop(0))
-                if tmp != 'null':
+                if tmp.val != 'null':
                     floor_tmp.right = tmp
                     floor.append(tmp)
 
