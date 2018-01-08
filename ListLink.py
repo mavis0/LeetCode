@@ -21,7 +21,7 @@ class ListLink(object):
             return
         else:
             self.head = ListNode(l[0])
-        cur = ListNode(l[0])
+        cur = self.head
         for i in l[1:]:
             tmp = ListNode(i)
             cur.next = tmp
