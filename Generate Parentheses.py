@@ -10,26 +10,30 @@ class Solution(object):
         # 可以用分治的思想，首先固定其中某一个元素，将剩下的n-1个元素拆分成两个小问题，
         # 这两个小问题的规模分别是(0,n-1) (1,n-2) (2,n-3) ... (n-1,0)
 
-        # if n == 0:
-        #     return ['']
-        # if n == 1:
-        #     return ['()']
+        if n == 0:
+            return ['']
+        if n == 1:
+            return ['()']
 
-        # l = []
+        l = []
 
-        # for i in range(0, n):
-        #     for j in self.generateParenthesis(i):
-        #         for k in self.generateParenthesis(n-1-i):
-        #             l.append('(' + j + ')' + k)
+        for i in range(0, n):
+            for j in self.generateParenthesis(i):
+                for k in self.generateParenthesis(n-1-i):
+                    l.append(j + '(' + k + ')')
 
-        # return l
-
-
-
-
-
-
-
+        return l
+        # def DFS(l, r, o, res):
+        #     print(l, r)
+        #     if l > r: return
+        #     if l == 0 and r == 0:
+        #         res.append(o)
+        #     else:
+        #         if l > 0:DFS(l-1, r, o+'(', res)
+        #         if r > 0:DFS(l, r-1, o+')', res)
+        # res = list()
+        # DFS(n, n, '', res)
+        # return res
 
 s = Solution()
 print(s.generateParenthesis(3))

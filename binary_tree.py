@@ -1,9 +1,22 @@
 # Definition for a binary tree node.
+from collections import deque
 class TreeNode:
     def __init__(self, x):
         self.val = x
         self.left = None
         self.right = None
+
+    def __str__(self):
+        queue, s = deque(), ''
+        queue.append(self)
+        while queue:
+            item = queue.pop()
+            s = s + str(item.val) + ', ' if item and item != 'null' else s + 'null'+ ', '
+            if item != 'null' and item.left:
+                queue.appendleft(item.left)
+            if item != 'null' and item.right:
+                queue.appendleft(item.right)
+        return s
 
 class Tree:
     def __init__(self, l):
@@ -48,3 +61,19 @@ class Tree:
             if tmp.left:
                 quene.append(tmp.left)
         return t
+
+    def __str__(self):
+        queue, s = deque(), ''
+        queue.append(self.root)
+        while queue:
+            item = queue.pop()
+            s = s + str(item.val) + ', ' if item and item != 'null' else s + 'null'+ ', '
+            if item != 'null' and item.left:
+                queue.appendleft(item.left)
+            if item != 'null' and item.right:
+                queue.appendleft(item.right)
+        return s
+
+if __name__ == '__main__':
+    t = Tree([1, 'null', 3, 4]).root
+    print(t)
