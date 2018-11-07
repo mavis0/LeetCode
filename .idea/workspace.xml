@@ -40,7 +40,17 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="Surrounded Regions.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Surrounded Regions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -56,7 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Find First and Last Position of Element in Sorted Array.py" />
         <option value="$PROJECT_DIR$/Multiply Strings.py" />
         <option value="$PROJECT_DIR$/Permutations.py" />
         <option value="$PROJECT_DIR$/Sort Colors.py" />
@@ -107,6 +116,7 @@
         <option value="$PROJECT_DIR$/Sum Root to Leaf Numbers.py" />
         <option value="$PROJECT_DIR$/Sum Root to Leaf Numbers.cpp" />
         <option value="$PROJECT_DIR$/11111.py" />
+        <option value="$PROJECT_DIR$/Surrounded Regions.py" />
       </list>
     </option>
   </component>
@@ -159,7 +169,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.11111">
+  <component name="RunManager" selected="Python.Surrounded Regions">
     <configuration name="11111" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -214,7 +224,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Triangle" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Surrounded Regions" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -226,7 +236,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Triangle.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Surrounded Regions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -270,19 +280,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.newsweekWithBS" />
-      <item itemvalue="Python.Triangle" />
       <item itemvalue="Python.111pony" />
       <item itemvalue="Python.Word Ladder" />
       <item itemvalue="Python.Sum Root to Leaf Numbers" />
       <item itemvalue="Python.11111" />
+      <item itemvalue="Python.Surrounded Regions" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Surrounded Regions" />
         <item itemvalue="Python.11111" />
         <item itemvalue="Python.Sum Root to Leaf Numbers" />
         <item itemvalue="Python.Word Ladder" />
         <item itemvalue="Python.111pony" />
-        <item itemvalue="Python.Triangle" />
       </list>
     </recent_temporary>
   </component>
@@ -306,24 +316,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25195312" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" weight="0.3297587" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.25454545" />
       <window_info anchor="bottom" id="Version Control" order="1" />
       <window_info anchor="right" id="Python Console" order="4" side_tool="true" type="SLIDING" weight="0.3660322" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.25454545" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.32937685" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.3909091" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.3909091" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="4" />
     </layout>
@@ -463,6 +474,7 @@
           <option name="timeStamp" value="104" />
         </line-breakpoint>
       </breakpoints>
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -580,13 +592,6 @@ dp[m][n]</expression-string>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Remove Duplicates from Sorted Array.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-208">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Remove Duplicates from Sorted Array II.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -913,10 +918,11 @@ dp[m][n]</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/11111.py">
+    <entry file="file://$PROJECT_DIR$/11111.py" />
+    <entry file="file://$PROJECT_DIR$/Surrounded Regions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="260">
+          <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
         </state>
       </provider>
     </entry>
