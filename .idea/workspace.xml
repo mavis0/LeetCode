@@ -40,12 +40,21 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Surrounded Regions.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Surrounded Regions.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Palindrome Partitioning.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Palindrome Partitioning.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+            <state relative-caret-position="182">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Clone Graph.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Clone Graph.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -66,9 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Multiply Strings.py" />
-        <option value="$PROJECT_DIR$/Permutations.py" />
-        <option value="$PROJECT_DIR$/Sort Colors.py" />
         <option value="$PROJECT_DIR$/Word Search.py" />
         <option value="$PROJECT_DIR$/Remove Duplicates from Sorted Array.py" />
         <option value="$PROJECT_DIR$/Remove Duplicates from Sorted Array II.py" />
@@ -117,6 +123,9 @@
         <option value="$PROJECT_DIR$/Sum Root to Leaf Numbers.cpp" />
         <option value="$PROJECT_DIR$/11111.py" />
         <option value="$PROJECT_DIR$/Surrounded Regions.py" />
+        <option value="$PROJECT_DIR$/Palindrome Partitioning.py" />
+        <option value="$PROJECT_DIR$/Clone Graph.py" />
+        <option value="$PROJECT_DIR$/Gas Station.py" />
       </list>
     </option>
   </component>
@@ -169,7 +178,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Surrounded Regions">
+  <component name="RunManager" selected="Python.Gas Station">
     <configuration name="11111" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -188,7 +197,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="111pony" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Gas Station" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -200,7 +209,25 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/111pony.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Gas Station.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Palindrome Partitioning" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Palindrome Partitioning.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -242,24 +269,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Word Ladder" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Word Ladder.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="newsweekWithBS" type="PythonConfigurationType" factoryName="Python">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -280,19 +289,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.newsweekWithBS" />
-      <item itemvalue="Python.111pony" />
-      <item itemvalue="Python.Word Ladder" />
       <item itemvalue="Python.Sum Root to Leaf Numbers" />
       <item itemvalue="Python.11111" />
       <item itemvalue="Python.Surrounded Regions" />
+      <item itemvalue="Python.Palindrome Partitioning" />
+      <item itemvalue="Python.Gas Station" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Gas Station" />
+        <item itemvalue="Python.Palindrome Partitioning" />
         <item itemvalue="Python.Surrounded Regions" />
         <item itemvalue="Python.11111" />
         <item itemvalue="Python.Sum Root to Leaf Numbers" />
-        <item itemvalue="Python.Word Ladder" />
-        <item itemvalue="Python.111pony" />
       </list>
     </recent_temporary>
   </component>
@@ -364,7 +373,7 @@
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Integer to Roman.py</url>
+          <url />
           <line>29</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
@@ -374,7 +383,7 @@
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Search in Rotated Sorted Array.py</url>
+          <url />
           <line>19</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
@@ -384,7 +393,7 @@
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Search in Rotated Sorted Array II.py</url>
+          <url />
           <line>8</line>
           <option name="timeStamp" value="52" />
         </line-breakpoint>
@@ -394,32 +403,32 @@
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Rotate Image.py</url>
+          <url />
           <line>10</line>
           <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Jump Game.py</url>
+          <url />
           <line>13</line>
           <option name="timeStamp" value="66" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Spiral Matrix II.py</url>
+          <url />
           <line>9</line>
           <option name="timeStamp" value="69" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Permutation Sequence.py</url>
+          <url />
           <line>10</line>
           <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Set Matrix Zeroes.py</url>
+          <url />
           <line>6</line>
           <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Search a 2D Matrix.py</url>
+          <url />
           <line>8</line>
           <option name="timeStamp" value="73" />
         </line-breakpoint>
@@ -444,12 +453,12 @@
           <option name="timeStamp" value="82" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Partition List.py</url>
+          <url />
           <line>13</line>
           <option name="timeStamp" value="84" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Reverse Linked List II.py</url>
+          <url />
           <line>15</line>
           <option name="timeStamp" value="91" />
         </line-breakpoint>
@@ -459,22 +468,22 @@
           <option name="timeStamp" value="99" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Unique Binary Search Trees II.py</url>
+          <url />
           <line>11</line>
           <option name="timeStamp" value="100" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Construct Binary Tree from Preorder and Inorder Traversal.py</url>
+          <url />
           <line>8</line>
           <option name="timeStamp" value="103" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Convert Sorted List to Binary Search Tree.py</url>
+          <url />
           <line>8</line>
           <option name="timeStamp" value="104" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -592,27 +601,6 @@ dp[m][n]</expression-string>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Remove Duplicates from Sorted Array II.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="10" column="22" selection-start-line="6" selection-start-column="8" selection-end-line="18" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/-660402188/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="2873" column="14" selection-start-line="2873" selection-start-column="14" selection-end-line="2873" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Permutations II.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="23" column="6" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Search in Rotated Sorted Array II.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -921,8 +909,29 @@ dp[m][n]</expression-string>
     <entry file="file://$PROJECT_DIR$/11111.py" />
     <entry file="file://$PROJECT_DIR$/Surrounded Regions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
+        <state relative-caret-position="1">
           <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Palindrome Partitioning.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gas Station.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Clone Graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
         </state>
       </provider>
     </entry>
